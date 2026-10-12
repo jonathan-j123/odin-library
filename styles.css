@@ -50,12 +50,12 @@ button:hover {
 }
 
 dialog {
+    margin: auto;
     padding: 2rem;
     border-radius: 8px;
     border: none;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-    width: 100%;
-    max-width: 400px;
+    width: min(90vw, 400px);
 }
 
 dialog::backdrop {
